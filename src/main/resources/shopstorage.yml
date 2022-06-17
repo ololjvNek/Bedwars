@@ -1,0 +1,17 @@
+shop:
+  bloki32:
+    category: BUILD
+    guiItem: WOOL
+    guiAmount: 32
+    guiData: 0
+    guiName: "&7&lx32 "
+    cost: 'IRON_INGOT:32'
+    enchantments: ''
+  bloki64:
+    category: BUILD
+    guiItem: WOOL
+    guiAmount: 64
+    guiData: 0
+    guiName: "&7&lx64 Bruk"
+    cost: 'IRON_INGOT:64'
+    enchantments: ''

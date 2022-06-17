@@ -1,0 +1,43 @@
+settings:
+  spawnprotectionradius: 5
+  messages:
+    lang: 'PL'
+  event:
+    dragon:
+      time: 1
+    zombie:
+      time: 1
+  game:
+    starttime: 30 #in seconds
+  shops:
+    villagername: '&a&lSKLEP'
+  upgrade:
+    villagername: '&b&lULEPSZENIA'
+    armor:
+      guiItem: 'DIAMOND_CHESTPLATE'
+      levelCosts: '1@DIAMOND:10;2@DIAMOND:20;3@DIAMOND:50'
+    weapon:
+      guiItem: 'IRON_SWORD'
+      levelCosts: '1@DIAMOND:10;2@DIAMOND:20;3@DIAMOND:50'
+    furnace:
+      guiItem: 'FURNACE'
+      levelCosts: '1@DIAMOND:10;2@DIAMOND:20;3@DIAMOND:50'
+    speed:
+      guiItem: 'FEATHER'
+      levelCosts: '1@DIAMOND:10;2@DIAMOND:20;3@DIAMOND:50'
+    bed:
+      guiItem: 'BED'
+      levelCosts: '1@DIAMOND:10;2@DIAMOND:20;3@DIAMOND:50'
+  generators:
+    intervalcut:
+      IRON: 200
+      GOLD: 500
+      DIAMOND: 500
+      EMERALD: 300
+      FURNACE: 500
+    info:
+      - '&e&lGENERATOR'
+      - '&cTyp: &a{TYPE}'
+      - '&cUpgrade: &a{UPGRADE}'
+      - '&cInterval: &a{INTERVAL}'
+      - '&cLevel: &a{LEVEL}'

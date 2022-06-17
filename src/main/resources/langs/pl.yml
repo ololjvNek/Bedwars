@@ -1,0 +1,78 @@
+prefix:
+  red: "CZERWONI"
+  blue: "NIEBIESCY"
+  yellow: "ZOLCI"
+  green: "ZIELONI"
+  purple: "FIOLETOWI"
+  gray: "SZARZY"
+  aqua: "AQUA"
+  white: "BIALI"
+shop:
+  category:
+    build: "&c&lBUDOWANIE"
+    armor: "&c&lZBROJOWNIA"
+    tools: "&c&lNARZEDZIA"
+    weapons: "&c&lBRONIE"
+    potions: "&c&lMIKSTURY"
+    other: "&c&lINNE"
+upgrade:
+  armor:
+    guiname: "&bOchrona &a{LEVELUP}"
+    guilore:
+      - '&7Aktualny poziom: &a{LEVEL}'
+      - '&7Kliknij, aby zakupic ulepszenie'
+      - '&7Koszt: &6{COST}'
+  weapon:
+    guiname: "&bBron &a{LEVELUP}"
+    guilore:
+      - '&7Aktualny poziom: &a{LEVEL}'
+      - '&7Kliknij, aby zakupic ulepszenie'
+      - '&7Koszt: &6{COST}'
+  furnace:
+    guiname: "&6Piecyk &a{LEVELUP}"
+    guilore:
+      - '&7Aktualny poziom: &a{LEVEL}'
+      - '&7Kliknij, aby zakupic ulepszenie'
+      - '&7Koszt: &6{COST}'
+  speed:
+    guiname: "&bSzybkosc &a{LEVELUP}"
+    guilore:
+      - '&7Aktualny poziom: &a{LEVEL}'
+      - '&7Kliknij, aby zakupic ulepszenie'
+      - '&7Koszt: &6{COST}'
+  bed:
+    guiname: "&aOchrona Lozka &a{LEVELUP}"
+    guilore:
+      - '&7Aktualny poziom: &a{LEVEL}'
+      - '&7Kliknij, aby zakupic ulepszenie'
+      - '&7Koszt: &6{COST}'
+generators:
+  iron: "ZELAZO"
+  gold: "ZLOTO"
+  diamond: "DIAMENT"
+  emerald: "EMERALD"
+messages:
+  jointogame: "&8>> &7Gracz &a{PLAYER} &7dolaczyl do gry &8(&a{PLAYERS}&8/&e{MAXPLAYERS}&8)"
+  destroy: "&8>> &cNie mozesz tego zniszczyc!"
+  place: "&8>> &cNie mozesz w tym miejscu budowac!"
+  destroybed: "&8>> &7Lozko druzyny {TEAM} zostalo zniszczone!"
+  destroyedbed: "&8>> &c&lTWOJE LOZKO ZOSTALO ZNISZCZONE!"
+  maxedlevel: "&c&lOSIAGNIETO MAKSYMALNY POZIOM"
+  respawnin: "&c&lOdrodzenie nastapi za &a{TIME}"
+  eliminated: "&7Gracz &a{DEATH} &7zostal zabity przez &c{KILLER} &b&lELIMINACJA"
+  kill: "&7Gracz &a{DEATH} &7zostal zabity przez &c{KILLER}"
+  youdead: "&c&lNIE ZYJESZ"
+  otherkiller: "spadniecie w pustke"
+  teamwin: "&c&lKONIEC GRY! &7Wygrala druzyna {TEAM}"
+  restarting: "&c&lRESTARTOWANIE GRY..."
+  cantafford: "&cNie stac cie na to!"
+  successbuy: "&aZakupiono przedmiot!"
+event:
+  messages:
+    startevent: "&8>> &7Wydarzenie {EVENT} &7zostalo aktywowane!"
+  prefix:
+    dragon: "&c&lLATAJACY SMOK"
+    zombie: "&4&lAPOKALIPSA"
+  board:
+    nextevent: "&fNastepne wydarzenie {EVENT}"
+    eventunderway: "&fWydarzenie {EVENT} &ftrwa"

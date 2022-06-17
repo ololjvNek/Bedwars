@@ -1,0 +1,7 @@
+name: Bedwars
+version: 1.0
+main: pl.ololjvNek.bedwars.Main
+
+commands:
+  bedwars:
+    description: Main command
